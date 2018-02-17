@@ -17,6 +17,12 @@ class App < Sinatra::Base
     erb :goodbye
   end
   
-  get 
+  get '/multiply/:num1/:num2'
+    erb :multiple
+  end
 
 end
+
+
+
+
