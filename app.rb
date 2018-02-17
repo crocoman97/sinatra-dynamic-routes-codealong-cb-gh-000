@@ -13,6 +13,8 @@ class App < Sinatra::Base
     "Hello #{@user_name}!"
   end
 
-  get '/'
+  get '/goodbye/:name' do 
+    
+  end
 
 end
